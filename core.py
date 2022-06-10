@@ -31,7 +31,7 @@ def getWindow_Linux(data):
     
 def findWindow_runelite():  # find window name returns PID of the window
     global hwnd
-    hwnd = win32gui.FindWindow(None, "RuneLite")
+    hwnd = win32gui.FindWindow(None, "Xeros - Rogue Clam - Beta v1.3.0")
     # hwnd = win32gui.GetForegroundWindow()860
     print('findWindow:', hwnd)
     win32gui.SetActiveWindow(hwnd)
@@ -40,7 +40,7 @@ def findWindow_runelite():  # find window name returns PID of the window
 
 def findWindow_openosrs():  # find window name returns PID of the window
     global hwnd
-    hwnd = win32gui.FindWindow(None, "OpenOSRS")
+    hwnd = win32gui.FindWindow(None, "Xeros")
     # hwnd = win32gui.GetForegroundWindow()860
     print('findWindow:', hwnd)
     win32gui.SetActiveWindow(hwnd)
